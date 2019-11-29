@@ -42,3 +42,31 @@ svg {
     padding: 16px;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.button {
+  font-size: 14px;
+  border: 2px solid #d3d3d3;
+  background: white;
+  padding: 8px;
+  transition: .25s box-shadow linear;
+}
+
+.button:hover {
+  box-shadow: 4px 4px turquoise;
+}
+
+#start.button:hover {
+  box-shadow: 4px 4px deeppink;
+}
+
+.button:active {
+  box-shadow: 2px 2px turquoise;
+}
+
+#start.button:active {
+  box-shadow: 2px 2px deeppink;
+}

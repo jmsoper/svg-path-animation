@@ -194,12 +194,16 @@ stop.addEventListener("click", () => {
   cancelAnimationFrame(request);
   clearInterval(timeout);
   running = false;
+  stop.classList.add('hidden');
+  start.classList.remove('hidden');
 });
 
 start.addEventListener("click", () => {
   // VERY interesting -- clicking start repeating (without this check) accelerates the animation!
   if (!running){
     animate();
+    start.classList.add('hidden');
+    stop.classList.remove('hidden');
   }
 });
 
