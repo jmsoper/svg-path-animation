@@ -1,5 +1,7 @@
 Your Project
 ------------
+![animated lines with a button](floppy-lines.png)
+See it live [here](https://jmsoper.github.io/svg-path-animation/)
 
 This is a demo of how to animate SVG paths using JavaScript.
 
@@ -11,12 +13,9 @@ Applications moving forward (or ideas for you to tinker with and try for yoursel
 
 1. What if, instead of generating random waves to have continous motion, the lines were at rest until the cursor interacted with them? For example, a cursor moving over the box could displace lines, dragging the curves after it, or click could open up a space between the lines.
 
-2. This seems like exactly the sort of thing that could actually make some feel nauseous/overwhelmed looking at a website. What would be an easy way to make it pause-able? 
+2. What's a way to make this code easier to read and more reusable? 
 
-3. What's a way to make this code easier to read and more reusable? 
-
-
-4. ...Now how would we do this the right way with GreenSock? 
+3. ...Now how would we do this the right way with GreenSock? 
 
 Made by [Glitch](https://glitch.com/)
 -------------------
