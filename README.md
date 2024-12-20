@@ -1,4 +1,4 @@
-Your Project
+SVG PATH ANIMATION: Randomized SVG paths without Greensock
 ------------
 ![animated lines with a button](floppy-lines.png)
 See it live [here](https://jmsoper.github.io/svg-path-animation/)
